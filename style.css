@@ -1,17 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
 body {
   overflow-x: hidden !important;
+  font-family: 'Poppins', sans-serif;
 }
+
+.heading {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* header section */
 header {
   background: #264653;
 }
-/* 
-.hero-img {
-  width: 552px;
-  height: 447px;
-} */
+/* featured image section */
+
 .featured-img {
   width: 288px;
   height: 243px;
@@ -19,6 +23,13 @@ header {
 .featured-img img {
   width: 100%;
 }
+
+.featured-img-gray {
+  filter: grayscale(2);
+  -webkit-filter: grayscale(2);
+}
+
+/* happy client section */
 
 .client-card {
   width: 322px;
@@ -31,6 +42,8 @@ header {
   height: 149px;
 }
 
+/* faq section */
+
 .faq-img {
   width: 431.2px;
   height: 423.5px;
@@ -40,7 +53,14 @@ header {
   width: 100%;
 }
 
+form textarea {
+  resize: none;
+}
+
 @media screen and (max-width: 576px) {
+  .heading {
+    font-size: 36px;
+  }
   .faq-img {
     width: 274.2px;
     height: 269.3px;
