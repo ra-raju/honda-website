@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap');
+
+/* font-family: 'Poppins', sans-serif; */
+body {
+  overflow-x: hidden !important;
+}
+header {
+  background: #264653;
+}
+/* 
+.hero-img {
+  width: 552px;
+  height: 447px;
+} */
+.featured-img {
+  width: 288px;
+  height: 243px;
+}
+.featured-img img {
+  width: 100%;
+}
+
+.client-card {
+  width: 322px;
+  height: 478px;
+  margin: 0;
+}
+
+.client-img {
+  width: 149px;
+  height: 149px;
+}
+
+.faq-img {
+  width: 431.2px;
+  height: 423.5px;
+}
+
+.faq-img img {
+  width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+  .faq-img {
+    width: 274.2px;
+    height: 269.3px;
+  }
+  .faq-img img {
+    width: 100%;
+  }
+}
